@@ -35,6 +35,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
 @Composable
 fun Greeting(name: String, viewModel: MainScreenViewModel = hiltViewModel(), modifier: Modifier = Modifier) {
     Text(
